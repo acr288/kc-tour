@@ -13,7 +13,7 @@
 		body {
 			margin: 0;
 			padding: 0;
-			background: #d3d3d3;
+			background: #212121;
 			font-family: 'Open Sans', sans-serif;
 			font-weight: 400;
 			color: #3d3d3d;
@@ -73,6 +73,32 @@
 		.max-image-width {
 			width:100%;
 		}
+
+		.first-column {
+            float: left;
+            width: 48%;
+            padding-right: 20px;
+        }
+
+        .column {
+            float: left;
+            width: 48%;
+        }
+
+        /* Clear floats after the columns */
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+		.linkbox {
+            margin: 3px 0 20px 0;
+            display: block;
+            font-weight: 300;
+        }
+
 	</style>
 </head>
 
@@ -85,17 +111,48 @@
 		<div id='map'>
 			<img src="../images/KC 2021 Tour_small.jpg" alt="King Crimson 2021 U.S. Tour" class="max-image-width">
 			<br> <!-- line break tag -->
-			<a href=".../images/KC 2021 Tour_large.jpg">Link to high resolution map</a>
-            <script src="https://gist.github.com/acr288/409206ddf0a6e2cedf79beb1e77e41c0.js"></script>
+			<a href="../images/KC 2021 Tour_large.jpg">Link to high resolution map</a>
+            <script src="https://gist.github.com/acr288/7918786d558931b3c9e85623fc00a070.js"></script>
 		</div>
 
-		<h1>Breweries in North America and Hawaii</h1>
+		<h1>King Crimson "Music is our friend" 2021 U.S. tour</h1>
 
 		<!-- Add you information below -->
-		<h2>Authored by: Aleksandra Craine</h2>
-		<p>Produced with QGIS 3.16<br>
-			Brewery data from <a href="http://www.poi-factory.com/">the POI Factory</a><br>
+		<h2>Authored by: Aleksandra Craine on June 6, 2021</h2>
+		<p>Produced with QGIS 3.16, Adobe Illustrator<br>
+			Tour data from <a href="https://www.dgmlive.com/tours?liveshow=on/">DGM Live</a><br>
 			North America data from  <a href="https://www.naturalearthdata.com/" >Natural Earth</a> </p>
+
+			</div>
+
+			<div class="row">
+            	<div class="first-column">
+                <p>
+                    Arroyo Burro Beach is named after the Arroyo Burro Creek that flows into the Pacific, but is more commonly known as Hendry's. Sometimes the names refer to two different sides of the beach. It is located below the Mesa
+                    and Douglas Family Preserve, which are ancient marine terraces. Hendry's is one of the most beautiful and beloved beaches in Santa Barbara. 
+                </p>
+                <p>
+                    Beaches extracted from the Domestic and Antarctic Names (State and Topical Gazetteer) published by
+                    the United States Board on Geographic Namkes. (<a hred="https://geonames.usgs.gov/domestic">geonames.usgs.gov</a>)
+                    Data accessed June 3, 2021. Contours were extracted from a USGS NED 1/3 arc-second raster digital
+                    elevation model. This data can be accessed at the USGS 3D Elevation Program (<a href="https://www.usgs.gov/core-science-systems/ngp/3dep">usgs.gov</a>)
+                </p>
+                
+                
+
+
+                
+
+
+            </div>
+            <div class="column">
+                <img class="max-image-width" src="hendrys.jpg"
+                    title="Gray&#x27;s Arch">
+                <div class="linkbox">Painting by Karen Fedderson</div>
+
+            </div>
+        </div>
+
             
 
 		<ul>
