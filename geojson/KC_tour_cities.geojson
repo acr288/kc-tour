@@ -1,7 +1,6 @@
 {
 "type": "FeatureCollection",
 "name": "KC_tour_cities",
-"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
 { "type": "Feature", "properties": { "city": "Clearwater", "state": "FL", "date": "2021-07-22", "month": "July", "order": 1, "venue": "Ruth Eckard Hall" }, "geometry": { "type": "Point", "coordinates": [ -82.7957, 27.9661 ] } },
 { "type": "Feature", "properties": { "city": "Delray Beach", "state": "FL", "date": "2021-07-23", "month": "July", "order": 2, "venue": "Old School Square" }, "geometry": { "type": "Point", "coordinates": [ -80.0738, 26.4658 ] } },
